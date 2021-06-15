@@ -8,7 +8,7 @@ const Home = () => {
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row">
-                <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
+                <div className="col-md-6 order-2 order-lg-1 d-flex justify-content-center flex-column">
                   <p className="healthy">Healthy Life With </p>
                   <strong className="organic">Nature Organic</strong>
 

@@ -161,7 +161,50 @@
 }
 
 /*Contact*/
-
+.main-footer.w-auto {
+  position: relative;
+  bottom: -360px;
+  height: 30em;
+  background-repeat: no-repeat;
+  font-size: 13px;
+  background-size: cover;
+}
+.footer-col {
+  transform: translate(0, 40%);
+}
+.list-unstyled {
+  position: relative;
+  top: -5px;
+  color: #fbfefe;
+}
+.information {
+  position: relative;
+  bottom: -50px;
+  color: #fbfefe;
+  font-size: 17px;
+}
+.bottom-style {
+  border-bottom: 3px solid #00dbd0;
+  width: 30%;
+}
+.icons {
+  color: white;
+}
+.follow {
+  position: relative;
+  bottom: -70px;
+  color: #fbfefe;
+  font-size: 17px;
+}
+.follow-style {
+  position: relative;
+  bottom: -15px;
+  height: 2em;
+}
+.list-unstyled .icons {
+  display: block;
+  border: black;
+}
 /*responsive*/
 @media only screen and (max-width: 600px) {
   .rounded {
@@ -227,5 +270,6 @@
     position: relative;
     bottom: -90px;
     transform: translate(0%, 20%);
+    background: no-repeat;
   }
 }
